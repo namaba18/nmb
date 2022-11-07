@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moda consciente NMB</title>    
+    <link href="css/estilos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="headerContainer">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>                  
+            </a>
+            <nav class="topnav" id="myTopnav">                
+                <ul>                    
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="">Prolíticas de privacidad</a></li>
+                    <li><a href="">Sobre nosotros</a></li>
+                    <li><a href="">Mujer</a></li>
+                    <li><a href="">Hombre</a></li>
+                    <li class="login"><a href="">Iniciar sección</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="contenido">
+        <section>
+            <h1>NMB</h1>
+            <hr/>
+            <div class="marca">
+                <h2>Moda consciente</h2>
+                <h3>"La diferencia entre estilo y moda esta en la calidad"</h3>
+                <p>Giorgio Armani</p>
+            </div>
+            <hr/><br><hr>
+            <div class="imagen">
+                <img src="https://img.freepik.com/vector-premium/banner-moda-dibujos-animados-modelos-elegantes-moda_8262-182.jpg?w=2000">
+            </div><hr>
+        </section>
+        <section>
+            <div class="promociones">
+                <h3>Promociones</h3>
+            </div>
+            <hr>
+        </section>
+        <section>   
+            <div class="comprar">
+                <button type="button" class="btn-compra" id="btn-hombre">Hombre</button>
+                <img src="https://us.123rf.com/450wm/netkoff/netkoff1801/netkoff180100282/93765559-una-mujer-y-un-hombre-del-vector-en-fondo-llano-.jpg?ver=6">                 
+                <button type="button" class="btn-compra" id="btn-mujer">Mujer</button>               
+            </div>
+            <hr><br>
+        </section>
+        
+        <section>
+            <div class="contenedor">
+                <div class="descripcion">
+                    <h2>Nueva colección</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore eveniet provident, quaerat enim tempora quo. Asperiores ex, sint commodi at qui temporibus enim aliquam sequi odio. Itaque iste dicta dignissimos.</p>
+                </div>
+                <div class="video">
+                    <div class="delimitador">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/o2zQZSUeslE"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <br><hr>
+        </section>
+        <section>
+            <div class="contenedor3"> 
+                <div class="titulo">
+                    <h2 onclick="registrarse()">Regístrate</h2>                               
+                    <div class="formulario" id="formulario">                
+                        <form>
+                            <div class="contenedor4">
+                                <div>                  
+                                    <label for="nombre">Nombre</label><br>
+                                    <input class="text" type="text" id="nombre" name="nombre">
+                                    <br><br>
+                                    <label for="apellidos">Apellidos</label><br>
+                                    <input class="text" type="text" id="apellidos" name="apellidos">
+                                    <br><br>
+                                    <label for="email">Email</label><br>
+                                    <input class="text" type="email" id="email" name="email">
+                                    <br><br>
+                                    <label for="contrasena">Ingrese una contraseña</label><br>
+                                    <input type="password" id="contrasena" name="contrasena">
+                                    <br><br>
+                                </div>  
+                                <div>
+                                    <label for="fecha">Fecha de nacimiento</label><br>
+                                    <input type="date" id="fecha" name="fecha">
+                                    <br><br>
+                                    <label for="edad">Edad</label><br>
+                                    <input type="number" id="edad" name="edad">
+                                    <br><br>                            
+                                    <label for="genero">Genero</label><br>
+                                    <input type="radio" id="genero" name="genero">Femenino
+                                    <input type="radio" id="genero" name="genero">Masculino
+                                    <br><br>                            
+                                    <label for="ccontrasena">Confirmar contraseña</label><br>
+                                    <input type="password" id="ccontrasena" name="ccontrasena">
+                                    <br><br>
+                                </div>
+                            </div>
+                            <input type="checkbox" id="info" name="info"> Recibir informacion
+                            <br><br>
+                            <input class="boton" type="submit" id="enviar" value="Enviar">  <input class="boton" type="reset" id="cancelar" value="Cancelar">
+                            <br><br>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </section>
+        <section>
+            <div class="principios">
+                <h3>Principios de la compañia</h3>
+                <ol>
+                    <li>Moda sostenible</li>
+                    <li>Inovación</li>
+                    <li>Calidad</li>
+                </ol>
+            </div>
+            <hr>
+        </section>
+        <section>
+            <div class="sedes">
+                <div class="contenedor-tabla">
+                    <table>
+                        <caption>Nuestras sedes</caption>
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Direccion</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Laureles</td>
+                                <td>Cl 75 # 32 12</td>
+                            </tr>
+                            <tr>
+                                <td>Envigado</td>
+                                <td>Cl 3 # 14 21</td>
+                            </tr>
+                            <tr>
+                                <td>Bello</td>
+                                <td>Cl 32 # 24 21</td>
+                            </tr>
+                            <tr>
+                                <td>Sede principal</td>
+                                <td>CC Viva Envigado</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3>Contacto</h3>
+        <p>Tel: 604 555 55 55</p>
+        <p>Whatsapp: 300 222 22 22</p>
+        <p>Correo: atencionalcliente@modanmb.com</p>
+        <div class="redes">
+            <p><a href=""><img src="https://cdn-icons-png.flaticon.com/512/1419/1419647.png"></a>&nbsp &nbsp</p>
+            <p><a href=""><img src="https://cdn-icons-png.flaticon.com/512/1419/1419644.png"></a></p>
+        </div>
+    </footer>
+    <script src="js/script.js"> </script>
+</body>
+
+</html>
